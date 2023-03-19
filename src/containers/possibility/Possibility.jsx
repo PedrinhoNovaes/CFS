@@ -1,5 +1,5 @@
 import React from 'react';
-import oi from '../../assets/oi.JPG';
+
 import possibilityImage from '../../assets/possibility.png';
 
 import './possibility.css';

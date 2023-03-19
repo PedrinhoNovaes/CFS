@@ -1,5 +1,4 @@
 import React from 'react';
-import people from '../../assets/people.png';
 import blog01 from '../../assets/blog01.png';
 import './header.css';
 
@@ -21,7 +20,7 @@ const Header = () => (
     </div>
 
     <div className="gpt3__header-image">
-      <img src={blog01} />
+      <img src={blog01} alt="blog"/>
     </div>
   </div>
 );
