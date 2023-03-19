@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import Feature from '../../components/feature/Feature';
 import './whatGPT3.css';
@@ -19,15 +18,15 @@ const WhatGPT3 = () => (
     </div>
     <div className="gpt3__whatgpt3-container">
       
-      <img src={oi} />
+      <img src={oi} alt="oi"/>
       <Feature title="Oi" text="" />
-      <img src={tim} />
+      <img src={tim}alt="tim" />
       <Feature title="Tim" text="" />
-      <img src={concer} />
+      <img src={concer}alt="concer" />
       <Feature title="Concer" text="" />
-      <img src={eletronet} />
+      <img src={eletronet}alt="eletronet" />
       <Feature title="Eletronet" text="" />
-      <img src={ccr} />
+      <img src={ccr}alt="ccr" />
       <Feature title="CCR" text="" />
      
     </div>
